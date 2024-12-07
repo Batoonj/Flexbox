@@ -1,1 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.main,.header,.body,.footer,.upbox,.downbox,.left,.right,.fifteeen,.three,.ten{
+  border: 1px solid black;
+  padding:5px;
+  gap:5px;
+  display:flex;
+}
+.main{
+  height:95vh;
+  flex-direction:column;
+}
+.header{
+  height:5vh;
+  justify-content:space-between;
+}
+.firstbox{
+  display:flex;
+  gap:5px;
+  align-items:center;
+}
+.box{
+  width:10vw;
+  height:5vh;
+  background-color:red;
+}
+.secondbox{
+  display:flex;
+  gap:5px;
+  align-items:center;
+}
+.twobox{
+  background-color:red;
+  width:8vw;
+  height:4vh;
+}
+.body{
+  height:80vh;
+}
+.left{
+  flex-direction:column;
+  width:70vw;
+}
+.upbox{
+  height:20vh;
+  align-content:flex-start;
+  flex-wrap:wrap;
+}
+.fifteeen{
+  width:5vw;
+  height:3vh;
+}
+.three{
+  width:10vw;
+  height:18vh;
+}
+.downbox{
+  height:20vh;
+  justify-content:space-between;
+}
+.right{
+  flex-direction:column;
+  width:25vw;
+}
+.footer{
+  height:10vh;
+}  
+</style>
+</head>
+<body>
+<div class="main">
+<div class="header">
+<div class="firstbox">
+<div class="box"></div>
+<div class="text">FLEXBOX</div>
+</div><!--firstbox-->
+<div class="secondbox">
+<div class="twobox"></div>
+<div class="twobox"></div>
+</div><!--twobox-->
+</div><!--header-->
 
+<div class="body">
+<div class="left">
+<div class="upbox">
+<div class="fifteeen"></div>
+<div class="fifteeen"></div>
+<div class="fifteeen"></div>
+<div class="fifteeen"></div>
+<div class="fifteeen"></div>
+<div class="fifteeen"></div>
+<div class="fifteeen"></div>
+<div class="fifteeen"></div>
+<div class="fifteeen"></div>
+<div class="fifteeen"></div>
+<div class="fifteeen"></div>
+<div class="fifteeen"></div>
+<div class="fifteeen"></div>
+<div class="fifteeen"></div>
+<div class="fifteeen"></div>
+</div><!--upbox-->
+<div class="downbox">
+<div class="three"></div>
+<div class="three"></div>
+<div class="three"></div>
+</div><!--downbox-->
+</div><!--left-->
+
+<div class="right">
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+</div><!--right-->
+</div><!--body-->
+
+
+
+
+
+
+<div class="footer">
+</div><!--footer-->
+
+
+
+
+</div><!--main-->
+</body>
+</html>
